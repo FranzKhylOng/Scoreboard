@@ -1,0 +1,92 @@
+@font-face {
+    font-family:"Cursed Timer ULiL";
+    src:url("CursedTimerULiL.eot?") format("eot"),url("CursedTimerULiL.woff") format("woff"),url("CursedTimerULiL.ttf") format("truetype"),url("CursedTimerULiL.svg#CursedTimerULiL") format("svg");
+    font-weight:normal;
+    font-style:normal;}
+
+body {
+    margin: 0;
+    background: #7DD3FC;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #F94F6D;
+}
+
+.board{
+    width: 150px;
+    height: 120px;
+    left: 337px;
+    top: 110px;
+    background: #0C4A6E;
+    border-radius: 5px;
+}
+
+.score{
+    font-family: 'Cursed Timer ULiL',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
+    margin: 0;
+}
+.btncontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+
+    border: 2px solid #F94F6D;
+    border-radius: 5px;
+}
+
+.button:hover, .clrbutton:hover{
+    cursor: pointer;
+}
+
+.text{
+    position: relative;
+    font-family: 'Cursed Timer ULiL',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+    color: #F94F6D;
+    margin: 0;
+}
+
+.clrbutton{
+    margin: 0 auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 90px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+
+    border: 2px solid #F94F6D;
+    border-radius: 5px;
+}
